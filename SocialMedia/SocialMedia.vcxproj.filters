@@ -13,10 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{542ba93d-063c-4700-baf7-f0cefaf127b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="static">
+      <UniqueIdentifier>{a53fbb1c-1cb8-4322-bbb1-ad4605865bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dao">
+      <UniqueIdentifier>{60c58a22-6346-4303-b184-6780a0421d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{ca302f77-46ee-4f2f-9ceb-1fd0765c8692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dao\mysqlimpl">
+      <UniqueIdentifier>{b54a0786-077f-41ac-a3fb-52fa1c91d53d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SocialMedia.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLUserDAO.cpp">
+      <Filter>dao\mysqlimpl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IUserDAO.h">
+      <Filter>dao</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLUserDAO.h">
+      <Filter>dao\mysqlimpl</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
